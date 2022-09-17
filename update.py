@@ -131,7 +131,7 @@ def server_send(msg):
  
 # Qmsg酱QQ推送
 def qmsg_send(msg):
-    if qkey == '':
+    if qkey == '91707fc640f09dc7c99283dbe6b6ff9b':
         return
     qmsg_url = "https://qmsg.zendee.cn:443/send/" + str(qkey)
  
@@ -144,8 +144,8 @@ def qmsg_send(msg):
  
 # -- 配置 --
 # ------------------------------
-user = ""  # 小米运动账号
-password = ""  # 密码
+user = "19820601063"  # 小米运动账号
+password = "Hw20030817"  # 密码
 step = str(randint(20000, 49999))  # 范围内取随机数， 前面不但能大于后面的数
  
 # 以下为信息推送，不懂的可不填写不影响刷步
